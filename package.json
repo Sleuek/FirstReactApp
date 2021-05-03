@@ -1,0 +1,17 @@
+{
+  "name": "pern-todo-app",
+  "version": "1.0.0",
+  "description": "<img src=\"https://www.freecodecamp.org/news/content/images/size/w2000/2020/03/PERN.png\" />",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
